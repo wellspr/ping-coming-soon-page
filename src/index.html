@@ -9,24 +9,73 @@
   <title>Frontend Mentor | Ping coming soon page</title>
 </head>
 <body>
-
   <main>
-    We are launching soon!
+    <header>
+      <img src="images/logo.svg" alt="logo image">
+    </header>
+    
+    <section id="page">
+      <h1>We are launching <strong>soon!</strong></h1>
 
-    Subscribe and get notified
+      <p>Subscribe and get notified</p>
 
-    Notify Me
+      <form method="post">
+        <input 
+        id="email" 
+        type="email" 
+        name="email" 
+        placeholder="Your email address..."
+        >
+        <button 
+          id="btn-submit"
+          type="submit"
+          formnovalidate
+          >
+          Notify Me
+        </button>
+      </form>
 
-    &copy; Copyright Ping. All rights reserved.
+      <img
+        id="dashboard-illustration" 
+        src="images/illustration-dashboard.png" 
+        alt="dashboard illustration"
+      >
+    </section>
 
+    <footer>
+      <div class="social">
+        <svg class="icon icon-facebook">
+          <use xlink:href="./images/social_icons/icon-facebook.svg#icon-facebook"></use>
+        </svg>
+        <svg class="icon icon-twitter">
+          <use xlink:href="./images/social_icons/icon-twitter.svg#icon-twitter"></use>
+        </svg>
+        <svg class="icon icon-instagram">
+          <use xlink:href="./images/social_icons/icon-instagram.svg#icon-instagram"></use>
+        </svg>
+        <!-- <ion-icon name="logo-facebook"></ion-icon> -->
+        <!-- <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon> -->
+      </div>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
   </main>
-  <footer>
+  <footer id="info">
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by 
+      <a 
+        href="https://www.frontendmentor.io?ref=challenge" 
+        target="_blank"
+        aria-label="Opens frontend mentor challenges webpage in a new tab"
+        >
+        Frontend Mentor
+      </a>. 
+      Coded by <a href="https://github.com/wellspr">Paulo</a>.
     </p>
   </footer>
 
   <script src="js/index.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
