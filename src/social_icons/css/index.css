@@ -1,0 +1,15 @@
+socialicon {
+    position: relative;
+    width: 1em;
+    height: 1em;
+}
+
+svg.icon {
+    position: absolute;
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}

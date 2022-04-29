@@ -1,0 +1,148 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14rem;
+}
+
+header img {
+    height: 1.6rem;
+    margin-top: 4.4rem;
+}
+
+section#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#page h1 {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: var(--Gray);
+    margin-bottom: 1.85rem;
+}
+
+section#page h1 strong {
+    font-weight: 700;
+    color: var(--Very_Dark_Blue);
+}
+
+section#page p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+#page form {
+    margin: 2rem 0 6.75rem;
+    padding: 0 96px;
+    width: 100%;
+}
+
+#page .form-input {
+    margin-bottom: 19px;
+}
+
+#page form input, #page form button {
+    font-family: 'Libre Franklin', sans-serif;
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 1.2rem;
+}
+
+#page form input {
+    border: solid 2px var(--Pale_Blue);
+    padding: 1.2rem 40px;
+}
+
+#page form input::placeholder {
+    color: var(--Gray);
+    font-size: 1.2rem;
+}
+
+#page form input:focus {
+    outline: 2px solid var(--Blue);
+}
+
+#page form input.error {
+    border: solid 1px var(--Light_Red);
+    outline: solid 1px var(--Light_Red);
+}
+
+#page form .feedback {
+    display: none;
+    text-align: center;
+    margin: 16px 0 2.2rem;
+    color: var(--Light_Red);
+    font-size: 1rem;
+}
+
+#page form button#btn-submit {
+    background-color: var(--Blue);
+    border: none;
+    padding: 1.3rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#page form button#btn-submit:hover {
+    opacity: 0.75;
+}
+
+#page img#dashboard-illustration {
+    width: 640px;
+}
+
+main footer {
+    color: var(--Gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 257px;
+    margin-bottom: 76px;
+}
+
+.social {
+    /* width: ; */
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Blue);
+}
+
+/* Styles for social icons */
+socialicon {
+    width: 32px;
+    height: 32px;
+}
+
+socialicon:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+socialicon:nth-child(1),
+socialicon:nth-child(2) {
+    margin-right: 3rem;
+}
+/* End of styles for social icons */

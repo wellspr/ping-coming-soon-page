@@ -54,6 +54,8 @@ Users should be able to:
 
 ### What I learned
 
+I managed to use icomoon to create the social icons in this project, and really enjoyed. 
+
 
 ### Useful resources
 
